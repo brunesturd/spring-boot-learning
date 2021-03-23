@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "family",
+      "type": "com.example.boot.basic.entity.Family",
+      "sourceType": "com.example.boot.basic.entity.Family"
+    }
+  ],
+  "properties": [
+    {
+      "name": "family.child",
+      "type": "com.example.boot.basic.entity.Child",
+      "sourceType": "com.example.boot.basic.entity.Family"
+    },
+    {
+      "name": "family.family-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.boot.basic.entity.Family"
+    },
+    {
+      "name": "family.father",
+      "type": "com.example.boot.basic.entity.Father",
+      "sourceType": "com.example.boot.basic.entity.Family"
+    },
+    {
+      "name": "family.mother",
+      "type": "com.example.boot.basic.entity.Mother",
+      "sourceType": "com.example.boot.basic.entity.Family"
+    }
+  ],
+  "hints": []
+}
